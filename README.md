@@ -36,15 +36,15 @@ pip install beautifulsoup4 requests tkinter keybert vaderSentiment
 python your_project_file.py
 ```
 
-3. The application window will open, providing an interface to interact with the app.
+2. The application window will open, providing an interface to interact with the app.
 
-4. Enter the name of the company you want to search for in the "Company Name" entry field.
+3. Enter the name of the company you want to search for in the "Company Name" entry field.
 
-5. Click the "Search" button to retrieve the list of websites associated with the searched company from Trustpilot.
+4. Click the "Search" button to retrieve the list of websites associated with the searched company from Trustpilot.
 
-6. Choose a website from the list and click the "Get Data" button to scrape reviews, perform sentiment analysis, and extract keywords.
+5. Choose a website from the list and click the "Get Data" button to scrape reviews, perform sentiment analysis, and extract keywords.
 
-7. The application will display the scraped reviews on the left side, the sentiment analysis result on the top right, and the extracted keywords on the bottom right.
+6. The application will display the scraped reviews on the left side, the sentiment analysis result on the top right, and the extracted keywords on the bottom right.
 
 # Customization
 If you want to modify the GUI's appearance or layout, you can make changes to the Tkinter code in your_project_file.py. You can also adjust the number of top keywords to be extracted by modifying the "top_n" parameter in the model.extract_keywords() function call.
