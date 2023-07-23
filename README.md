@@ -25,8 +25,7 @@ This is a Python-based web application that allows users to search for a company
 ```
 git clone https://github.com/your-username/company-review-web-app.git
 ```
-
-3. Install the required dependencies:
+2. Install the required dependencies:
 ```
 pip install beautifulsoup4 requests tkinter keybert vaderSentiment
 ```
